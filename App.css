@@ -1,0 +1,70 @@
+.weatherBg {
+  position: relative;
+  background-image: url("https://img.freepik.com/free-vector/blue-sky-with-clouds-background-elegant_1017-26302.jpg?size=626&ext=jpg&uid=R134702049&ga=GA1.1.320346191.1665850834&semt=ais");
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh; 
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
+  color: white; 
+}
+
+.content {
+  margin-bottom: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content input {
+  margin-right: 10px; 
+}
+
+.btn-primary {
+ 
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #87dbed; 
+  color: #ffffff; 
+}
+
+
+.head {
+  margin-top: 20px; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.weatherResultBox {
+  position: absolute;
+  top: 70%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 60%; 
+  max-width: 400px; 
+  background-color: rgba(82, 238, 235, 0.7); 
+  padding: 20px; 
+}
+
+.weatherIcon {
+  margin-top: 10px; 
+  height: 50px; 
+  width: 50px; 
+}
+
+.weatherCity {
+  margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+.weatherTemp {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px; 
+}
+
+
